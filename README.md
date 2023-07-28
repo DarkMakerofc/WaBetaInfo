@@ -23,7 +23,8 @@ const betainfo = require("nima-wabeta-info")
 ```
 
 
-< a name = "allnews" >
+<a name= "allnews">
+
 #### 🔍 Get All Results  
 ```
 betainfo.getAll().then((result) => {
