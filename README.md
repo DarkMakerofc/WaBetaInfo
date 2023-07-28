@@ -6,8 +6,8 @@ This is Unofficial Scraper & NPM package , Created by Mr nima. </h6>
 
 [ Using This Npm Package ]
 * [Get All News](#allnews)
-* Get News Using Link
-* Get Latest News
+* [Get News Using Link](#latest)
+* [Get Latest News](#fromlink)
 
 
 
@@ -123,6 +123,9 @@ console.log(result)
 </a>
 <br>
 
+
+<a name= "latest">
+
 #### 🔍 Get Latest Result 
 ```
 betainfo.getLatest().then((result) => {
@@ -162,8 +165,14 @@ console.log(result)
   ]
 }
 ```
+
+
+</a>
+  
 <br>
 
+<a name= "fromlink">
+  
 #### 🔍 Get Result From Link
 ```
 var link = "https://wabetainfo.com/whatsapp-beta-for-ios-23-15-1-76-whats-new/"
@@ -205,6 +214,9 @@ console.log(result)
   ]
 }
 ```
+
+</a>
+
 <br><br>
 
 ### 👨‍💻 Author : [Mr Nima](https://github.com/darkmakerofc)
