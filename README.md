@@ -5,7 +5,7 @@ This is Unofficial Scraper & NPM package , Created by Mr nima. </h6>
 <br>
 
 [ Using This Npm Package ]
-* Get All News
+* [Get All News](#allnews)
 * Get News Using Link
 * Get Latest News
 
@@ -23,7 +23,7 @@ const betainfo = require("nima-wabeta-info")
 ```
 
 
-
+< a name = "allnews" >
 #### 🔍 Get All Results  
 ```
 betainfo.getAll().then((result) => {
@@ -119,6 +119,7 @@ console.log(result)
   ]
 }
 ```
+</a>
 <br>
 
 #### 🔍 Get Latest Result 
