@@ -19,7 +19,7 @@ yarn add nima-wabeta-info
 
 #### 📡 Require Package 
 ```
-const betainfo = require("nima-wabeta-info")
+const nimaWabetaInfo = require("nima-wabeta-info")
 ```
 
 
@@ -27,11 +27,11 @@ const betainfo = require("nima-wabeta-info")
 
 #### 🔍 Get All Results  
 ```
-betainfo.getAll().then((result) => {
+nimaWabetaInfo.getAll().then((result) => {
 
 console.log(result)
 
-}).catch(error => console.log(error)
+}).catch(error => console.log(error))
 ```
 #### ✅ Result 
 ```
@@ -128,11 +128,11 @@ console.log(result)
 
 #### 🔍 Get Latest Result 
 ```
-betainfo.getLatest().then((result) => {
+nimaWabetaInfo.getLatest().then((result) => {
 
 console.log(result)
 
-}).catch(error => console.log(error)
+}).catch(error => console.log(error))
 ```
 #### ✅ Result 
 ```
@@ -177,11 +177,11 @@ console.log(result)
 ```
 var link = "https://wabetainfo.com/whatsapp-beta-for-ios-23-15-1-76-whats-new/"
 
-betainfo.getFromLink(link).then((result) => {
+nimaWabetaInfo.getFromLink(link).then((result) => {
 
 console.log(result)
 
-}).catch(error => console.log(error)
+}).catch(error => console.log(error))
 ```
 #### ✅ Result 
 ```
@@ -220,3 +220,7 @@ console.log(result)
 <br><br>
 
 ### 👨‍💻 Author : [Mr Nima](https://github.com/darkmakerofc)
+
+#### 🛠️ Package Updated.
+
+* Fix Image undefined Error
