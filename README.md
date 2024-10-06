@@ -11,7 +11,7 @@ This is unofficial scraper of whatsapp beta news site, created by Mr nima. all p
 
 
 
-#### ⬇️ Install Package 
+#### ⬇️ Install Package.
 ```
 yarn add nima-wabeta-info
 ```
