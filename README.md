@@ -1,7 +1,7 @@
 <h2 align="center">🪀 WaBetaInfo 🪀</h2>
 
 <h6 align="center">
-This is Unofficial Scraper & NPM package , Created by Mr nima. </h6>
+This is unofficial scraper of whatsapp beta news site, created by Mr nima. all posts credits goes to wabetainfo.com site </h6>
 <br>
 
 [ Using This Npm Package ]
@@ -15,6 +15,10 @@ This is Unofficial Scraper & NPM package , Created by Mr nima. </h6>
 ```
 yarn add nima-wabeta-info
 ```
+or 
+```
+npm install nima-wabeta-info
+```
 
 
 #### 📡 Require Package 
@@ -27,115 +31,114 @@ const nimaWabetaInfo = require("nima-wabeta-info")
 
 #### 🔍 Get All Results  
 ```
-nimaWabetaInfo.getAll()
-  .then((result) => {
-    console.log(result);
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+async function TEST_ALLRESULTS() {
+    var result = await nimaWabetaInfo.getAll();
+    console.log(result)
+}
+TEST_ALLRESULTS()
 
 ```
 #### ✅ Result 
 ```
 {
-   "creator": "MR NIMA",
-   "status": true,
-   "result": [
+    "creator": "MR NIMA",
+    "status": true,
+    "result": [
       {
-         "title": "WhatsApp beta for Android 2.24.2.17: what’s new?",
-         "link": "https://wabetainfo.com/whatsapp-beta-for-android-2-24-2-17-whats-new/",
-         "date": "Jan 18, 2024",
-         "categories": [
-            "ANDROID"
-         ],
-         "desc": "WhatsApp is rolling out a new update through the Google Play Beta Program, bringing the version up to 2.24.2.17. What’s new in this update? WhatsApp is working on a feature to transfer the channel ownership, and it will be available in a future update!"
+        "no": 1,
+        "title": "WhatsApp news of the week: redesigned typing and recording indicator for iOS and Android",
+        "date": "Oct 6, 2024",
+        "tags": [
+          "ANDROID",
+          "IOS"
+        ],
+        "link": "https://wabetainfo.com/whatsapp-news-of-the-week-redesigned-typing-and-recording-indicator-for-ios-and-android/"
       },
       {
-         "title": "Mark Zuckerberg announced voice notes, multiple admins, status sharing, and polls for WhatsApp channels!",
-         "link": "https://wabetainfo.com/mark-zuckerberg-announced-voice-notes-multiple-admins-status-sharing-and-polls-for-whatsapp-channels/",
-         "date": "Jan 17, 2024",
-         "categories": [
-            "ANDROID",
-            "IOS"
-         ],
-         "desc": "Mark Zuckerberg recently announced several new features available for WhatsApp channels, including the ability to share voice notes and polls, a feature to promote new admins, and a dedicated interface to share channel content as a status update."
+        "no": 2,
+        "title": "WhatsApp beta for Android 2.24.21.26: what's new?",
+        "date": "Oct 5, 2024",
+        "tags": [
+          "ANDROID"
+        ],
+        "link": "https://wabetainfo.com/whatsapp-beta-for-android-2-24-21-26-whats-new/"
       },
       {
-         "title": "WhatsApp for Mac 24.1.77: what’s new?",
-         "link": "https://wabetainfo.com/whatsapp-for-mac-24-1-77-whats-new/",
-         "date": "Jan 16, 2024",
-         "categories": [
-            "IOS"
-         ],
-         "desc": "WhatsApp has just submitted a new stable update for macOS, available on the App Store: the build number is 24.1.77. What’s new in this update? This is a bug-fix update that addresses several issues and offers performance improvements to everyone!"
+        "no": 3,
+        "title": "WhatsApp beta for iOS 24.20.10.76: what's new?",
+        "date": "Oct 4, 2024",
+        "tags": [
+          "IOS"
+        ],
+        "link": "https://wabetainfo.com/whatsapp-beta-for-ios-24-20-10-76-whats-new/"
       },
       {
-         "title": "WhatsApp beta for iOS 24.1.10.76: what’s new?",
-         "link": "https://wabetainfo.com/whatsapp-beta-for-ios-24-1-10-76-whats-new/",
-         "date": "Jan 15, 2024",
-         "categories": [
-            "IOS"
-         ],
-         "desc": "WhatsApp has just submitted a new update through the TestFlight beta Program, bringing the version up to 24.1.10.76. The version marked within WhatsApp Settings is 2.24.1.76 and the TestFlight build is 24.1.10 (555067882). What’s new in this update? WhatsApp is rolling out a feature to share polls in channels, and it’s available to some beta testers!"
+        "no": 4,
+        "title": "WhatsApp beta for Android 2.24.21.22: what's new?",
+        "date": "Oct 4, 2024",
+        "tags": [
+          "ANDROID"
+        ],
+        "link": "https://wabetainfo.com/whatsapp-beta-for-android-2-24-21-22-whats-new/"
       },
       {
-         "title": "WhatsApp news of the week: additional text formatting tools available on Android beta",
-         "link": "https://wabetainfo.com/whatsapp-news-of-the-week-additional-text-formatting-tools-available-on-android-beta/",
-         "date": "Jan 14, 2024",
-         "categories": [
-            "ANDROID",
-            "IOS"
-         ],
-         "desc": "If you missed our stories this week about the latest updates to WhatsApp beta for Android, iOS, and Desktop, this is a good time to catch up thanks to our summary. Among the 8 stories and concepts we shared, the best news of the week is about additional text formatting tools for messages, a new feature available on WhatsApp beta for Android!"
+        "no": 5,
+        "title": "WhatsApp is rolling out new status like reaction and mention features on iOS and Android",
+        "date": "Oct 3, 2024",
+        "tags": [
+          "ANDROID",
+          "IOS"
+        ],
+        "link": "https://wabetainfo.com/whatsapp-is-rolling-out-new-status-like-reaction-and-mention-features-on-ios-and-android/"
       },
       {
-         "title": "WhatsApp beta for Android 2.24.2.13: what’s new?",
-         "link": "https://wabetainfo.com/whatsapp-beta-for-android-2-24-2-13-whats-new/",
-         "date": "Jan 13, 2024",
-         "categories": [
-            "ANDROID"
-         ],
-         "desc": "WhatsApp is rolling out a new update through the Google Play Beta Program, bringing the version up to 2.24.2.13. What’s new in this update? WhatsApp is rolling out a feature to manage app updates with the preinstalled Meta App Manager application, and it’s available to some beta testers!"
+        "no": 6,
+        "title": "WhatsApp beta for iOS 24.20.10.73: what's new?",
+        "date": "Oct 3, 2024",
+        "tags": [
+          "IOS"
+        ],
+        "link": "https://wabetainfo.com/whatsapp-beta-for-ios-24-20-10-73-whats-new/"
       },
       {
-         "title": "WhatsApp beta for Android 2.24.2.12: what’s new?",
-         "link": "https://wabetainfo.com/whatsapp-beta-for-android-2-24-2-12-whats-new/",
-         "date": "Jan 12, 2024",
-         "categories": [
-            "ANDROID"
-         ],
-         "desc": "WhatsApp is rolling out a new update through the Google Play Beta Program, bringing the version up to 2.24.2.12. What’s new in this update? This is a bug-fix update that addresses an issue with viewing thumbnails for status updates!"
+        "no": 7,
+        "title": "WhatsApp beta for Android 2.24.21.18: what's new?",
+        "date": "Oct 3, 2024",
+        "tags": [
+          "ANDROID"
+        ],
+        "link": "https://wabetainfo.com/whatsapp-beta-for-android-2-24-21-18-whats-new/"
       },
       {
-         "title": "WhatsApp beta for Android 2.24.2.11: what’s new?",
-         "link": "https://wabetainfo.com/whatsapp-beta-for-android-2-24-2-11-whats-new/",
-         "date": "Jan 11, 2024",
-         "categories": [
-            "ANDROID"
-         ],
-         "desc": "WhatsApp is rolling out a new update through the Google Play Beta Program, bringing the version up to 2.24.2.11. What’s new in this update? WhatsApp is rolling out a feature to share polls in channels, and it’s available to some beta testers!"
+        "no": 8,
+        "title": "WhatsApp beta for iOS 24.20.10.72: what's new?",
+        "date": "Oct 2, 2024",
+        "tags": [
+          "IOS"
+        ],
+        "link": "https://wabetainfo.com/whatsapp-beta-for-ios-24-20-10-72-whats-new/"
       },
       {
-         "title": "WhatsApp beta for Android 2.24.2.9: what’s new?",
-         "link": "https://wabetainfo.com/whatsapp-beta-for-android-2-24-2-9-whats-new/",
-         "date": "Jan 11, 2024",
-         "categories": [
-            "ANDROID"
-         ],
-         "desc": "WhatsApp is rolling out a new update through the Google Play Beta Program, bringing the version up to 2.24.2.9. What’s new in this update? WhatsApp is rolling out a feature to apply new text formatting tools to messages, and it’s available to some beta testers!"
+        "no": 9,
+        "title": "WhatsApp beta for Android 2.24.21.15: what's new?",
+        "date": "Oct 2, 2024",
+        "tags": [
+          "ANDROID"
+        ],
+        "link": "https://wabetainfo.com/whatsapp-beta-for-android-2-24-21-15-whats-new/"
       },
       {
-         "title": "WhatsApp beta for iOS 24.1.10.75: what’s new?",
-         "link": "https://wabetainfo.com/whatsapp-beta-for-ios-24-1-10-75-whats-new/",
-         "date": "Jan 11, 2024",
-         "categories": [
-            "IOS"
-         ],
-         "desc": "WhatsApp has just submitted a new update through the TestFlight beta Program, bringing the version up to 24.1.10.75. The version marked within WhatsApp Settings is 2.24.1.75 and the TestFlight build is 24.1.10 (554773775). What’s new in this update? This is a bug-fix update that addresses some critical crashes introduced in the previous updates!"
+        "no": 10,
+        "title": "Mark Zuckerberg announced filters and backgrounds for WhatsApp video calls",
+        "date": "Oct 1, 2024",
+        "tags": [
+          "ANDROID",
+          "IOS"
+        ],
+        "link": "https://wabetainfo.com/mark-zuckerberg-announced-filters-and-backgrounds-for-whatsapp-video-calls/"
       }
-   ]
-}
+    ]
+  }
 ```
 </a>
 <br>
@@ -145,53 +148,47 @@ nimaWabetaInfo.getAll()
 
 #### 🔍 Get Latest Result 
 ```
-nimaWabetaInfo.getLatest()
-  .then((result) => {
-    console.log(result);
-  })
-  .catch((error) => {
-    console.log(error);
-  });
-
+async function TEST_LATEST_POST() {
+    var result = await nimaWabetaInfo.getLatest();
+    console.log(result)
+}
+TEST_LATEST_POST()
 ```
 #### ✅ Result 
 ```
 {
-   "creator": "MR NIMA",
-   "status": true,
-   "result": {
-      "title": "WhatsApp beta for Android 2.24.2.17: what’s new?",
-      "updateFor": [
-         "ANDROID"
-      ],
-      "date": "Jan 18, 2024",
-      "image": "https://wabetainfo.com/wp-content/uploads/2024/01/WA_TRANSFER_OWNERSHIP_FEATURE_CHANNEL_ANDROID.jpg",
-      "subtitle": "TRANSFER OWNERSHIP",
-      "link": "https://wabetainfo.com/whatsapp-beta-for-android-2-24-2-17-whats-new/",
-      "desc": "WhatsApp is rolling out a new update through the Google Play Beta Program, bringing the version up to 2.24.2.17.\nWhat’s new in this update? WhatsApp is working on a feature to transfer the channel ownership, and it will be available in a future update!After the latest announcement shared by Mark Zuckerberg from his official WhatsApp channel, WhatsApp is now working on other tools to help channel owners manage their channels with ease. Specifically, thanks to the latest WhatsApp beta for Android 2.24.2.17 update, which is available on the Google Play Store, we discovered that WhatsApp is working on a feature to allow channel owners to transfer the ownership of their channels!As you can see in this screenshot, a new option to transfer the ownership of a channel will be available within the channel info screen in the future. This option will allow channel owners to easily transfer the administrative rights and responsibilities to another channel admin of their choice. This feature is designed to enhance the flexibility and adaptability of WhatsApp channels, enabling transitions in the event of personal decisions by the current channel owner.We believe that this feature might also be useful in other situations, especially for channel owners who manage their channels using two different WhatsApp accounts. In such cases, where a channel owner may have distinct WhatsApp accounts for professional and personal use, the ability to transfer ownership becomes even more important. As the channel grows or undergoes a shift in focus, the channel owner may decide to separate their personal and professional communications by creating a dedicated WhatsApp account for the channel. The introduction of the ownership transfer feature will finally allow for a quick and secure transition between these accounts.The feature to transfer the channel ownership is under development and it will be available in a future update of the app. As always, we are going to publish a new article when we have further information to share with you.",
-      "QandA": [
-         {
-            "question": "Name of the feature?",
-            "answer": "Channel ownership"
-         },
-         {
-            "question": "Status?",
-            "answer": "Under development"
-         },
-         {
-            "question": "Availability?",
-            "answer": "WhatsApp is working on bringing a feature to transfer the channel ownership to a future update of the app."
-         },
-         {
-            "question": "I’ve installed this update but I don’t have this feature. Why?",
-            "answer": "This feature is under development so it’s not ready for beta testers, but you can discover a preview in this article."
-         },
-         {
-            "question": "Previous news?",
-            "answer": "Mark Zuckerberg announced voice notes, multiple admins, status sharing, and polls for WhatsApp channels!"
-         }
-      ]
-   }
+  "creator": "MR NIMA",
+  "status": true,
+  "result": {
+    "title": "WhatsApp news of the week: redesigned typing and recording indicator for iOS and Android",
+    "link": "https://wabetainfo.com/whatsapp-news-of-the-week-redesigned-typing-and-recording-indicator-for-ios-and-android/",
+    "image": "https://wabetainfo.com/wp-content/uploads/2024/10/WA_NEW_TYPING_RECORDING_INDICATOR_INTERFACE_GROUP_CHATS_FEATURE_IOS_ANDROID.webp",
+    "category": [
+      "ANDROID",
+      "IOS"
+    ],
+    "date": "Oct 6, 2024",
+    "subtitle": "WHATSAPP NEWS OF THE WEEK",
+    "desc": "Missed our weekly WhatsApp beta updates? Catch up now with our summary! Among our 13 stories we shared, the best news of the week is about a redesigned typing and recording indicator available on iOS and Android!Stay tuned with us to discover new features and updates about WhatsApp, coming your way next week!Following WABetaInfo on X is the best way to discover new features under development and released to users on WhatsApp beta for Android, iOS, Web, and Desktop. Keep yourself informed and up-to-date by following us.Do you like this news? Please, let us know on X: we love hearing your feedback! If you're curious to see where you can find WABetaInfo, there is a dedicated page where you can discover our services. In addition, we have set up a Discord Server where you can chat with other people, get help and advice, and stay up to date with the latest announcements from WABetaInfo.We are using cookies to give you the best experience on our website.You can find out more about which cookies we are using or switch them off in settings.This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.If you disable this cookie, we will not be able to save your preferences. This means that every time you visit this website you will need to enable or disable cookies again.This website uses Google Analytics to collect anonymous information such as the number of visitors to the site, and the most popular pages.Keeping this cookie enabled helps us to improve our website.Please enable Strictly Necessary Cookies first so that we can save your preferences!More information about our Cookie Policy",
+    "QandA": [
+      {
+        "question": "Story about?",
+        "answer": "WhatsApp news of the week"
+      },
+      {
+        "question": "I've installed the latest update of WhatsApp for Android, iOS, and Desktop, but some of these features are not currently available. Is there a particular reason for this?",
+        "answer": "Some features in the app may be under development and not yet available to all testers, or they may be gradually rolling out to users. If you're unable to access a certain feature, you'll need to wait for a future update. Keep reading for more information."
+      },
+      {
+        "question": "News of last week?",
+        "answer": "WhatsApp news of the week: poll feature for status updates in development on iOS!"
+      },
+      {
+        "question": "Previous article?",
+        "answer": "WhatsApp beta for Android 2.24.21.26: what's new? WhatsApp is rolling out a new privacy feature to manage the contact syncing option!"
+      }
+    ]
+  }
 }
 ```
 
@@ -204,55 +201,49 @@ nimaWabetaInfo.getLatest()
   
 #### 🔍 Get Result From Link
 ```
-const link = "https://wabetainfo.com/whatsapp-beta-for-ios-23-15-1-76-whats-new/";
-
-nimaWabetaInfo.getFromLink(link)
-  .then((result) => {
+const link = "https://wabetainfo.com/whatsapp-news-of-the-week-redesigned-typing-and-recording-indicator-for-ios-and-android/";
+async function TEST_GETFROM_LINK() {
+    var result = await nimaWabetaInfo.getFromLink(link);
     console.log(result);
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+}
+TEST_GETFROM_LINK()
 
 ```
 #### ✅ Result 
 ```
 {
-   "creator": "MR NIMA",
-   "status": true,
-   "result": {
-      "title": "WhatsApp beta for Android 2.24.2.17: what’s new?",
-      "updateFor": [
-         "ANDROID"
-      ],
-      "date": "Jan 18, 2024",
-      "image": "https://wabetainfo.com/wp-content/uploads/2024/01/WA_TRANSFER_OWNERSHIP_FEATURE_CHANNEL_ANDROID.jpg",
-      "subtitle": "TRANSFER OWNERSHIP",
-      "link": "https://wabetainfo.com/whatsapp-beta-for-android-2-24-2-17-whats-new/",
-      "desc": "WhatsApp is rolling out a new update through the Google Play Beta Program, bringing the version up to 2.24.2.17.\nWhat’s new in this update? WhatsApp is working on a feature to transfer the channel ownership, and it will be available in a future update!After the latest announcement shared by Mark Zuckerberg from his official WhatsApp channel, WhatsApp is now working on other tools to help channel owners manage their channels with ease. Specifically, thanks to the latest WhatsApp beta for Android 2.24.2.17 update, which is available on the Google Play Store, we discovered that WhatsApp is working on a feature to allow channel owners to transfer the ownership of their channels!As you can see in this screenshot, a new option to transfer the ownership of a channel will be available within the channel info screen in the future. This option will allow channel owners to easily transfer the administrative rights and responsibilities to another channel admin of their choice. This feature is designed to enhance the flexibility and adaptability of WhatsApp channels, enabling transitions in the event of personal decisions by the current channel owner.We believe that this feature might also be useful in other situations, especially for channel owners who manage their channels using two different WhatsApp accounts. In such cases, where a channel owner may have distinct WhatsApp accounts for professional and personal use, the ability to transfer ownership becomes even more important. As the channel grows or undergoes a shift in focus, the channel owner may decide to separate their personal and professional communications by creating a dedicated WhatsApp account for the channel. The introduction of the ownership transfer feature will finally allow for a quick and secure transition between these accounts.The feature to transfer the channel ownership is under development and it will be available in a future update of the app. As always, we are going to publish a new article when we have further information to share with you.",
-      "QandA": [
-         {
-            "question": "Name of the feature?",
-            "answer": "Channel ownership"
-         },
-         {
-            "question": "Status?",
-            "answer": "Under development"
-         },
-         {
-            "question": "Availability?",
-            "answer": "WhatsApp is working on bringing a feature to transfer the channel ownership to a future update of the app."
-         },
-         {
-            "question": "I’ve installed this update but I don’t have this feature. Why?",
-            "answer": "This feature is under development so it’s not ready for beta testers, but you can discover a preview in this article."
-         },
-         {
-            "question": "Previous news?",
-            "answer": "Mark Zuckerberg announced voice notes, multiple admins, status sharing, and polls for WhatsApp channels!"
-         }
-      ]
-   }
+  "creator": "MR NIMA",
+  "status": true,
+  "result": {
+    "title": "WhatsApp news of the week: redesigned typing and recording indicator for iOS and Android",
+    "link": "https://wabetainfo.com/whatsapp-news-of-the-week-redesigned-typing-and-recording-indicator-for-ios-and-android/",
+    "image": "https://wabetainfo.com/wp-content/uploads/2024/10/WA_NEW_TYPING_RECORDING_INDICATOR_INTERFACE_GROUP_CHATS_FEATURE_IOS_ANDROID.webp",
+    "category": [
+      "ANDROID",
+      "IOS"
+    ],
+    "date": "Oct 6, 2024",
+    "subtitle": "WHATSAPP NEWS OF THE WEEK",
+    "desc": "Missed our weekly WhatsApp beta updates? Catch up now with our summary! Among our 13 stories we shared, the best news of the week is about a redesigned typing and recording indicator available on iOS and Android!Stay tuned with us to discover new features and updates about WhatsApp, coming your way next week!Following WABetaInfo on X is the best way to discover new features under development and released to users on WhatsApp beta for Android, iOS, Web, and Desktop. Keep yourself informed and up-to-date by following us.Do you like this news? Please, let us know on X: we love hearing your feedback! If you're curious to see where you can find WABetaInfo, there is a dedicated page where you can discover our services. In addition, we have set up a Discord Server where you can chat with other people, get help and advice, and stay up to date with the latest announcements from WABetaInfo.We are using cookies to give you the best experience on our website.You can find out more about which cookies we are using or switch them off in settings.This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.If you disable this cookie, we will not be able to save your preferences. This means that every time you visit this website you will need to enable or disable cookies again.This website uses Google Analytics to collect anonymous information such as the number of visitors to the site, and the most popular pages.Keeping this cookie enabled helps us to improve our website.Please enable Strictly Necessary Cookies first so that we can save your preferences!More information about our Cookie Policy",
+    "QandA": [
+      {
+        "question": "Story about?",
+        "answer": "WhatsApp news of the week"
+      },
+      {
+        "question": "I've installed the latest update of WhatsApp for Android, iOS, and Desktop, but some of these features are not currently available. Is there a particular reason for this?",
+        "answer": "Some features in the app may be under development and not yet available to all testers, or they may be gradually rolling out to users. If you're unable to access a certain feature, you'll need to wait for a future update. Keep reading for more information."
+      },
+      {
+        "question": "News of last week?",
+        "answer": "WhatsApp news of the week: poll feature for status updates in development on iOS!"
+      },
+      {
+        "question": "Previous article?",
+        "answer": "WhatsApp beta for Android 2.24.21.26: what's new? WhatsApp is rolling out a new privacy feature to manage the contact syncing option!"
+      }
+    ]
+  }
 }
 ```
 
@@ -261,9 +252,10 @@ nimaWabetaInfo.getFromLink(link)
 <br><br>
 
 ### 👨‍💻 Author : [Mr Nima](https://github.com/darkmakerofc)
+### Credits : [wabetainfo.com](https://wabetainfo.com/)
 
-#### 🛠️ Package Updated.
+## UPDATES
+* Fix all news , latest news and get from link errors.
+* Add categories ( platforms )
+* Date: [10/06/2024]
 
-* Fix Axios Error And Update Scraper Codes.
-* Add Catogory For All Results.
-* Add Sub-title For All Details.
